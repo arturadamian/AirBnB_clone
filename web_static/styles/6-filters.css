@@ -1,0 +1,111 @@
+.container .filters {
+    background: white;
+    position: relative;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+
+}
+button:hover {
+    opacity: 0.9;
+}
+.locations {
+    height: 100%;
+    width: 25%;
+    margin-left: 4%;
+    border-right: #DDDDDD 1px solid;
+}
+.amenities {
+    margin-left: 4%;
+}
+.locations h3 {
+    font-weight: 600;
+    margin-left: 15px;
+    margin-bottom: 0%;
+}
+.locations h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 2%;
+}
+.amenities h3 {
+    font-weight: 600;
+    margin-left: 15px;
+    margin-bottom: 0%;
+}
+.amenities h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 2%;
+}
+button {
+    font-size: 18px;
+    position: absolute;
+    background: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border-radius: 4px;
+    right: 30px;
+    top: 15%;
+}
+button:hover {
+    opacity: 0.9;
+}
+.dropdown {
+    position: relative;
+}
+ul.popover {
+    list-style-type: none;
+}
+ul.city {
+    list-style-type: none;
+}
+
+.locations .popover {
+    background: #FAFAFA;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    position: absolute;
+    margin-top: -2%;
+    list-style-type: none;
+    left: -16.5%;
+    height: 234px;
+    padding-top: 5%;
+    visibility: hidden;
+}
+.state {
+    margin-left: 0px;
+}
+.city li {
+    margin-left: -23px;
+    margin-top: 3px;
+}
+.amenities .popover {
+    background: #FAFAFA;
+    border-radius: 4px;
+    width: 250px;
+    border: 1px solid #DDDDDD;
+    position: absolute;
+    margin-top: -2%;
+    list-style-type: none;
+    left: -26%;
+    height: 130px;
+    padding-top: 20%;
+    visibility: hidden;
+}
+.amenities li {
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.locations:hover .popover {
+    visibility: visible;
+}
+.amenities:hover .popover {
+    visibility: visible;
+}
